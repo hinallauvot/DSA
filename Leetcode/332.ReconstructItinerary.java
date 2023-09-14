@@ -11,7 +11,6 @@ class Solution {
         path.add(from);
     }
     public List<String> findItinerary(List<List<String>> tickets) {
-        Set<String> set = new HashSet<>();
         Map<String, List<String>> graph = new HashMap<>();
         //create graph
         for(List<String> ticket : tickets) 
