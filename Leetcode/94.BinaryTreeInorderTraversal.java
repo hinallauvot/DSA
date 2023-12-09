@@ -1,4 +1,4 @@
-\class Solution {
+class Solution {
     List<Integer> res = new ArrayList<>();
     private void inOrder(TreeNode root) {
         if(root == null) return;
